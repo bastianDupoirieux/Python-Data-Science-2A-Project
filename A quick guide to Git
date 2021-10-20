@@ -34,5 +34,6 @@ Push the file to github.com with "!git push origin master" (TODO:check if you ca
 
 For further details, see: https://stackoverflow.com/questions/42239874/how-do-i-connect-my-python-spyder-with-github
 
+These commands work perfectly well in Git Bash or Command Prompt
 
 Other Python IDEs probably won't work exactly the same, but will likely have similar patterns.
