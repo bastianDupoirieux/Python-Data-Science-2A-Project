@@ -1,7 +1,7 @@
 # Python-Data-Science-2A-Project
 A repository containing our project for the "Python for Data Science" course at the ENSAE.
 
-This project is carried out by @efflam385 and @bastianDupoirieux
+This project is carried out by @Efflam581 and @bastianDupoirieux
 
 This project will focus primarlily on studying rail connections between major European cities, using selected open-source data, and datasets we created from scratch.
 
