@@ -1,4 +1,4 @@
-# Python-Data_Science_2A-Project
+# Python-Data_Science-2A-Project
 A repository containing our project for the "Python for Data Science" course at the ENSAE.
 
 This project is carried out by @efflam.fouquesduparc and @bastianDupoirieux
