@@ -1,0 +1,39 @@
+A quick, step by step guide to get started with github, written by Bastian Dupoirieux
+Why is it in english? Because professionals write everything on github in english, so I want to feel like a professional aswell.
+
+To start using git on this project, you need to have a GitHub account.
+
+Start by downloading Git on your computer: https://git-scm.com/downloads
+Follow the installation method, and go for all the standard installation requirements (unless you know more than me, then feel free to do as you like)
+
+For all further commands, use Git Bash
+
+The first step is to create a SSH Key, that will connect your personal computer to your account.
+See how to create a personal SSH Key under https://jdblischak.github.io/2014-09-18-chicago/novice/git/05-sshkeys.html
+I don't know if this step is actually useful, but I think it is.
+
+Once you have created your SSH Key, you can clone the entire repository to your computer:
+See here on how to clone a repository: '''https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository'''
+Note: before using the $git clone command, you can change your directory to tell git where to save the project.
+For that, use "$cd <your directory>" to specifiy where you want to save the cloned repository. (cd stands for change directory)
+
+Once you'll have cloned the repository, you should have access to all the repositories different existing files and branches.
+
+You can open them up, and work on them. To save your changes to git, you must first "commit" the file, "push" the file to git, and others can then "pull" the latest version off of github.
+
+For Spyder IDE, the commands to create the git are the following:
+In the console, start by initialising the git with "!git init".
+
+Then, add the contents of the current git repository using "!!git remote add origin https://github.com/bastianDupoirieux/StatApp.git"
+
+You can choose which file to commit using "!git add '<Directory of your working file>' "
+
+Commit the file using "!git commit '<Directory of your file>' Comment on the commit"
+
+Push the file to github.com with "!git push origin master" (TODO:check if you can only push files to master branch)
+
+For further details, see: https://stackoverflow.com/questions/42239874/how-do-i-connect-my-python-spyder-with-github
+
+These commands work perfectly well in Git Bash or Command Prompt
+
+Other Python IDEs probably won't work exactly the same, but will likely have similar patterns.
