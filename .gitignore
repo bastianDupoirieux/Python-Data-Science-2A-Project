@@ -1,2 +1,3 @@
 #ignore all databases
 *.xml
+*.geojson
