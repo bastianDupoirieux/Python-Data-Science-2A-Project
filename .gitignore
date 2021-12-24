@@ -1,3 +1,10 @@
 #ignore all databases
 *.xml
 *.geojson
+
+#ignore the jupyter notebook checkpoints
+*.ipynb_checkpoints/
+
+#ignore the folder with the countries data
+*Austria/
+*Germany
