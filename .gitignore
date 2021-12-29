@@ -8,4 +8,7 @@
 
 #ignore the folder with the countries data
 *Austria/
-*Germany
+*Germany/
+
+#ignore cache files
+*__pycache__/
