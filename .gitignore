@@ -1,6 +1,7 @@
 #ignore all databases
 *.xml
 *.geojson
+*.xlsx
 
 #ignore the jupyter notebook checkpoints
 *.ipynb_checkpoints/
