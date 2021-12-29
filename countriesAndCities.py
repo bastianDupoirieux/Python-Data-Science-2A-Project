@@ -14,7 +14,13 @@ def countryPopulation(country):
     @param country: a variable of type string, the name of the country we want to gather the information from
     @return the population of the given country'''
     
+    '''Right now, this method only works for single name countries'''
+    #TODO: write method for multi-name countries using regex
+    
     assert type(country) == str, "the variable must a be a string, it's a country name"
+    
+    if country.str.contains(' ') == True:
+        raise ValueError("This method can't handle countries with multiple names right now. Sry :-(")
     
     country = country[0].upper() + country[1:].lower() #transform the text so that it is understandable for the webiste
     url= 'https://www.worldometers.info/world-population/population-by-country/'
@@ -56,14 +62,16 @@ def listCities(country):
     @param country: a variable of type string, the country worked on
     @return a list of the largest cities, the amount of cities depending on the numberOfCities function'''
     assert type(country) == str, "the variable must be a string, it's a country name"
+    country = country.replace(' ', '-')
     country = country.lower()
+   
     
     citiesList = []
     
     population = countryPopulation(country)
     citiesNumber = numberOfCities(population)
     
-    url = 'https://population.mongabay.com/population/' + str(country)
+    url = 'https://population.mongabay.com/population/' + str(country) +'/'
     
     req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
     request_text = urllib.request.urlopen(req).read()
