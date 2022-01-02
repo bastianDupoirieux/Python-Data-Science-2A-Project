@@ -19,8 +19,6 @@ def countryPopulation(country):
     
     assert type(country) == str, "the variable must a be a string, it's a country name"
     
-    if country.str.contains(' ') == True:
-        raise ValueError("This method can't handle countries with multiple names right now. Sry :-(")
     
     country = country[0].upper() + country[1:].lower() #transform the text so that it is understandable for the webiste
     url= 'https://www.worldometers.info/world-population/population-by-country/'
