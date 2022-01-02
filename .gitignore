@@ -2,6 +2,7 @@
 *.xml
 *.geojson
 *.xlsx
+*.csv
 
 #ignore the jupyter notebook checkpoints
 *.ipynb_checkpoints/
