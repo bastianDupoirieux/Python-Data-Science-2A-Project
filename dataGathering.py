@@ -3,7 +3,7 @@
 
 @author: bastd
 
-This is a .py file with the information in the largestStations.ipynb file
+
 """
 
 import urllib
