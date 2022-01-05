@@ -10,6 +10,10 @@
 #ignore the folder with the countries data
 *Austria/
 *Germany/
+*France/
+*Belgium/
+*Switzerland/
+*World/
 
 #ignore cache files
 *__pycache__/
