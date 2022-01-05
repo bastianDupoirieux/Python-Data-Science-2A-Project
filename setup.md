@@ -1,4 +1,4 @@
-# # Setup of the python data science class project
+## Setup of the python data science class project
 
 Hey there, happy to see you found our little project. 
 
