@@ -30,7 +30,7 @@ Both regular .py files work as modules, that are imported into both notebooks, i
 The notebooks is where the real magic takes place. The unifiedDatabase.ipynb notebook is a look into creating the useful database out of our accessible data.
 The Visualisation.ipynb notebook creates maps based on our data. Due to technical limitations, the maps can be a bit slow to load, unfortunately. 
 
-Furthermore, the data zipped folder summarises every database we have used throughout the project, perfectly organised by country.
+Furthermore, the data.zip zipped folder summarises every database we have used throughout the project, perfectly organised by country.
 
 Lastly, we have got regular github files, README.md (which you are reading right now), setup.md, requirements.md and .gitignore
 
