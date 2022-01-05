@@ -4,7 +4,7 @@ A repository containing our project for the "Python for Data Science" course at 
 
 This project is carried out by @efflam581, @bastianDupoirieux and @Aharon21
 
-The entire project's source code is available on github, at [linked text](https://github.com/bastianDupoirieux/Python-Data-Science-2A-Project)
+The entire project's source code is available on github, at [bastianDupoirieux/Python-Data-Science-2A-Project](https://github.com/bastianDupoirieux/Python-Data-Science-2A-Project)
 
 # What is this project?
 
