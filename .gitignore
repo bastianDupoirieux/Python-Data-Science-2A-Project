@@ -17,3 +17,6 @@
 
 #ignore cache files
 *__pycache__/
+
+#ignore html downloads
+*.html
