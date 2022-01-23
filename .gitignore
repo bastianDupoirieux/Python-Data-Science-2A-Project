@@ -20,3 +20,6 @@
 
 #ignore html downloads
 *.html
+
+#ignore presentation stuff
+*Soutenance/
